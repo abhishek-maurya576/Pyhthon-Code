@@ -9,3 +9,17 @@ z = 5 # z is of type int
 z = 'Variable' # z is now of type str
 
 print(z)
+
+
+# Casting
+# If you want to specify the data type of a variable, this can be done with casting.
+
+# Example
+
+a = str(3)
+b = int(3)
+c = float(3)
+
+print(type(a))
+print(type(b))
+print(type(c))
