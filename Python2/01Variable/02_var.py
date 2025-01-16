@@ -22,4 +22,5 @@ c = float(3)
 
 print(type(a))
 print(type(b))
+
 print(type(c))
