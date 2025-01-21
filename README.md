@@ -1,6 +1,6 @@
 # Pyhthon-Code
 ### **XYZ**
 ---
-readme coming soon 
+## readme coming soon 
 # more code comming soon
 ## Stay tuned 
