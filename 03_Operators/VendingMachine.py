@@ -1,11 +1,12 @@
 #Write a program to simulate a vending machine where you input money and select items. Use comparison and logical operators to calculate the remaining balance or error.
 print("1. Sugar(40/kg)\t2. Almend(500/kg)\n3. Chips(20/peace)\t4. Exit")
 mny = int(input("Enter Money here: "))
+print("You entered money is: ",mny)
 while True :
     print("===================================\n1. Sugar(40/kg)\t2. Almend(500/kg)\n3. Chips(20/peace)\t4. Exit\n=======================================================")
     
     op = int(input("Choose an Item: "))
-    print("You entered money is: ",mny)
+    
     if(op == 1):
         amt = int(input("Enter your amount(kg): "))
         sugaramt = amt*40
@@ -59,6 +60,7 @@ while True :
         print("Thans for using")
         break
     else:
-        print("Choose valid option\nSomething went wrong")
+        print("Choose valid option\nSomething went wrong\n====================")
+   
+if (mny != 0):
     print("Take your cash: ",mny)
-print("Take your cash: ",mny)
