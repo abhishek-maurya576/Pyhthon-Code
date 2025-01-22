@@ -2,4 +2,4 @@
 num = int(input("enter a num: "))
 print("Square: ",num**2)
 print("Cube: ",num**3)
-print("Square root: ",num**1/2)
+print("Square root: ",num**0.5)
