@@ -13,7 +13,9 @@ The provided code stub reads two integers from STDIN, `a` and `b`. Add code to p
 
 ```
 8
+
 -2
+
 15
 ```
 
@@ -34,6 +36,7 @@ Print the three lines as explained above.
 
 ```
 3
+
 2
 ```
 
