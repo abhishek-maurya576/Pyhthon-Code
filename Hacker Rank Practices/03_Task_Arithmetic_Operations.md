@@ -44,6 +44,8 @@ Print the three lines as explained above.
 
 ```
 5
+
 1
+
 6
 ```
