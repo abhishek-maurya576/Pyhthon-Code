@@ -1,4 +1,4 @@
-```markdown
+
 # Task
 
 The provided code stub reads an integer, `n`, from STDIN. For all non-negative integers `i < n`, print `i^2`.
@@ -39,5 +39,4 @@ Print `n` lines, one corresponding to each `i^2`.
 4
 9
 16
-```
 ```
