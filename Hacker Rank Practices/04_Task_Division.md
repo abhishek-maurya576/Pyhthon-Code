@@ -13,6 +13,7 @@ No rounding or formatting is necessary.
 
 ```
 0
+
 0.6
 ```
 
@@ -29,6 +30,7 @@ Print the two lines as described above.
 
 ```
 4
+
 3
 ```
 
@@ -36,6 +38,7 @@ Print the two lines as described above.
 
 ```
 1
+
 1.33333333333
 ```
 ```
