@@ -1,4 +1,4 @@
 # Pyhthon-Code
 ---
 ## readme coming soon 
-# more code comming soo
+# more code comming soon
