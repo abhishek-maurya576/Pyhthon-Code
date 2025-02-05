@@ -1,3 +1,3 @@
 # Pyhthon-Code
 ## readme coming soon 
-# more code comming soon
+# more code comming soon 
