@@ -1,4 +1,4 @@
-```markdown
+
 # Task: Arithmetic Operations
 
 The provided code stub reads two integers from STDIN, `a` and `b`. Add code to print three lines where:
@@ -47,5 +47,4 @@ Print the three lines as explained above.
 
 1
 
-6
-```
+6
