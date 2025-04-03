@@ -1,0 +1,3 @@
+Hello python!
+this is text file.
+Have a nice day
