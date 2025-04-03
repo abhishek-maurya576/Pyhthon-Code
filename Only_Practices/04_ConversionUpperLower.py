@@ -1,0 +1,5 @@
+text = input("Enter a text: ")
+print("Upper case: ",text.upper())
+print("Lower case: ",text.lower())
+print("Split text: ",text.split())
+print("Title text: ",text.title())
