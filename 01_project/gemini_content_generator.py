@@ -2,7 +2,7 @@ import requests
 import json
 
 # Replace with your actual Gemini API Key
-API_KEY = "AIzaSyAKcJKuxaFVigsOErsKtZmPpsIFqGXftKc"
+API_KEY = "TODO"
 
 # Use the correct Gemini 2.0 Flash model endpoint
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={API_KEY}"
