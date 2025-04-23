@@ -1,0 +1,28 @@
+import numpy as np
+one_array = np.array([4,5,8,7])
+print("The array is: ",one_array)
+print("Dimension of the array: ",one_array.ndim)
+print("The number at Zero index: ",one_array[0])
+print("The number at one index: ",one_array[1])
+print("The number at two index: ",one_array[2])
+print("The number at three index: ",one_array[3])
+print()
+two_array = np.array([[1,2,3,4],[5,6,7,8],[11,12,13,14]])
+print("The array is: ",two_array)
+print("Dimension of the array: ",two_array.ndim)
+print("Second element of the first row: ",two_array[0,1])
+print("Second element of the second row: ",two_array[1,1])
+print("the first row: ",two_array[0:1])
+print("the Second row: ",two_array[1:2])
+print("the Third row: ",two_array[2:3])
+print("the first and Second row: ",two_array[0:2])
+print("second row third element: ",two_array[1][2])
+print("\nQ. Print the last element from the 2nd dim:",two_array[1,-1])
+print()
+three_array = np.array([[[4,5,5],[1,2,3]],[[4,5,6],[7,8,9]]])
+print("The array is: ",three_array)
+print("dimension of the array: ",three_array.ndim)
+print("Element of the point (1,2,3) is: ",three_array[0,1,2])
+
+
+
