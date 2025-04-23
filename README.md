@@ -20,17 +20,29 @@ The repository is organized into topic-based folders:
 - **10_Functions** - Function definition and usage examples
 - **11_range** - Examples of using the range function
 - **12_File_Handling** - File I/O operations examples
+- **13_numPy** - NumPy library examples and array operations
+- **14_datetime** - Date and time manipulation examples
 - **Hacker Rank Practices** - Solutions to HackerRank challenges
 - **Only_Practices** - Additional practice exercises
 - **Python1/Python2/Python3/python4** - Progressive Python learning examples
 - **01_project** - Small Python projects
-- **00_Mxti** - Miscellaneous Python scripts
+
+### Projects
+
+The `01_project` directory contains mini-projects demonstrating Python in practical scenarios:
+
+- **01_mini_TODO_(Console-Based).PY** - A simple console-based TODO list manager
+- **password_generator.py** - A customizable secure password generator
+- **gemini_content_generator.py** - A tool that generates educational content using the Gemini API
 
 ## Getting Started
 
 ### Prerequisites
 
 - Python 3.x installed on your system
+- Required libraries:
+  - NumPy (for array operations)
+  - Requests (for API interactions)
 
 ### Running the Examples
 
@@ -38,6 +50,22 @@ To run any example, navigate to its directory and use:
 
 ```bash
 python filename.py
+```
+
+### Running the Projects
+
+The projects in the `01_project` directory can be executed directly:
+
+```bash
+# To run the TODO list application
+python 01_mini_TODO_(Console-Based).PY
+
+# To generate secure passwords
+python password_generator.py
+
+# To use the Gemini content generator
+# (Requires a valid API key to be added to the script)
+python gemini_content_generator.py
 ```
 
 ## Topics Covered
@@ -50,7 +78,23 @@ This collection covers:
 - Data structures (lists, tuples, sets, dictionaries)
 - Functions and modules
 - File handling
+- NumPy for numerical computing
+- Date and time operations
+- API interactions
+- Console-based applications
 - And more advanced topics
+
+## Files to Exclude from Version Control
+
+The following files and directories should not be pushed to GitHub:
+
+- `passwords.txt` - Contains sensitive password information
+- `__pycache__/` - Python bytecode directories
+- `.pyc` files - Compiled Python files
+- Build directories and compiled code
+- Log files (*.log)
+- Temporary files
+- API keys and other secrets
 
 ## Contributing
 
