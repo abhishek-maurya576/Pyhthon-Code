@@ -5,6 +5,6 @@ def is_prime(n):
 		if n % x == 0:
 			return False
 	return True
-number = [x for x in range(1, int(input("Enter a num: ")))]
-prime = list(map(is_prime, number))
+prime = [x for x in range(1, int(input("Enter a num: "))) if is_prime(x)]
+
 print(prime)
